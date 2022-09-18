@@ -1,14 +1,18 @@
-﻿int a, b;
-Console.WriteLine("Введите два числа: ");
-a = Convert.ToInt32(Console.ReadLine());
-b = Convert.ToInt32(Console.ReadLine());
+﻿Console.WriteLine("Введите три числа: ");
 
-if (a > b)
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+
+if (a > b > c)
 {
-    Console.WriteLine("{0} наибольшее число", a);
+   max = a;
 }
-else
+
+if (b > a > c)
 {
-    Console.WriteLine("{0} наибольшее число", b);
+    max = b;
 }
-Console.WriteLine();
+else (max = c);
+
+Console.WriteLine("наибольшее число" + max);
