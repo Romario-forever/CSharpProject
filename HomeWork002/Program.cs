@@ -41,17 +41,17 @@ namespace HomeWork
             Console.Write("Введите цифру, обозначающую день недели: ");
             int numberDayWeek = Convert.ToInt32(Console.ReadLine());
 
-            void  CheckingTheDayOfTheWeek (int numberDayWeek) 
+            void CheckingTheDayOfTheWeek(int numberDayWeek)
             {
                 if (numberDayWeek == 6 || numberDayWeek == 7)
-                Console.WriteLine("Это выходной день");
-                
+                    Console.WriteLine("Это выходной день");
+
                 else if (numberDayWeek < 1 || numberDayWeek > 7)
-                Console.WriteLine("Это НЕ ДЕНЬ недели!");
-                
-                else  Console.WriteLine("Это НЕ выходной день");
+                    Console.WriteLine("Это НЕ ДЕНЬ недели!");
+
+                else Console.WriteLine("Это НЕ выходной день");
             }
-                CheckingTheDayOfTheWeek(numberDayWeek);
+            CheckingTheDayOfTheWeek(numberDayWeek);
 
             Console.WriteLine();
             Console.WriteLine("Задача 228");
