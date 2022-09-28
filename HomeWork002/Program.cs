@@ -52,7 +52,7 @@ namespace HomeWork
                 else Console.WriteLine("Это НЕ выходной день");
             }
             CheckingTheDayOfTheWeek(numberDayWeek);
-
+            
             Console.WriteLine();
             Console.WriteLine("Задача 228");
             // Напишите программу, которая принимает на вход семь чисел, 
