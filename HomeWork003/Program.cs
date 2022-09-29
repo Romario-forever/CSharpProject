@@ -6,12 +6,15 @@ namespace HomeWork
     {
         static void Main(string[] args)
         {
-            /*Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("Задача 19");
             //Напишите метод, который принимает на вход пятизначное число
             //и проверяет, является ли оно палиндромом.
+            //14212 -> нет
+            //12821 -> да
+            //23432 -> да
 
-            int number = 257486;
+            int number = 23432;
             int current_number = number;
             int result = 0;
 
@@ -39,28 +42,32 @@ namespace HomeWork
                 Console.WriteLine($"Число {number} не палиндром");
             }
 
-            /*Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("Задача 21");
             // Напишите метод, который принимает на вход координаты двух точек
             // и находит расстояние между ними в 3D пространстве.
+            //A (3,6,8); B (2,1,-7), -> 15.84 
+            //A (7,-5, 0); B (1,-1,9) -> 11.53
 
-            int a_x = 5, a_y = 2, a_z = 3;
-            int b_x = 1, b_y = 2, b_z = 5;              
+            int a_x = 7, a_y = -5, a_z = 0;
+            int b_x = 1, b_y = -1, b_z = 9;              
             
 
             double result = Math.Sqrt(Math.Pow(a_x - b_x, 2)
                                 + Math.Pow(a_y - b_y, 2)
                                 + Math.Pow(a_z - b_z, 2));
 
-            Console.WriteLine(result);*/
+            Console.WriteLine(Math.Round(result, 2));
 
 
             Console.WriteLine();
             Console.WriteLine("Задача 23");
             //Напишите метод, который принимает на вход число (N) 
             //и выдаёт таблицу кубов чисел от 1 до N.
+            //3 -> 1, 8, 27
+            //5 -> 1, 8, 27, 64, 125
 
-            int digit = 13;
+            int digit = 5;
 
             for (int i = 1; i <= digit; i++)
             {
