@@ -6,7 +6,7 @@ namespace HomeWork
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            /*Console.WriteLine();
             Console.WriteLine("Задача 19");
             //Напишите метод, который принимает на вход пятизначное число
             //и проверяет, является ли оно палиндромом.
@@ -40,7 +40,7 @@ namespace HomeWork
             else
             {
                 Console.WriteLine($"Число {number} не палиндром");
-            }
+            }*/
 
             Console.WriteLine();
             Console.WriteLine("Задача 21");
@@ -60,7 +60,7 @@ namespace HomeWork
             Console.WriteLine(Math.Round(result, 2));
 
 
-            Console.WriteLine();
+            /*Console.WriteLine();
             Console.WriteLine("Задача 23");
             //Напишите метод, который принимает на вход число (N) 
             //и выдаёт таблицу кубов чисел от 1 до N.
@@ -72,7 +72,7 @@ namespace HomeWork
             for (int i = 1; i <= digit; i++)
             {
                 Console.WriteLine($"{i} * {i} * {i} = {Math.Pow(i, 3)}");
-            }
+            }*/
 
 
 

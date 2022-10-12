@@ -18,11 +18,11 @@ namespace HomeWork
                 //объявляем массив размера size( количество элементов = size)
                 // это выделена область памяти для переменных типа int 
                 //(количество переменных = size)
-                int[] RandomArray = new int[size];
+                int[] randomArray = new int[size];
                 for (int i = 0; i < size; i++)
                 {
                 //Генерируем число из диапазона [start;end] и записываем его в i-йэлемент массива
-                    RandomArray[i] = new Random().Next(start, end + 1);
+                    randomArray[i] = new Random().Next(start, end + 1);
                 }
                 
                 return RandomArray;

@@ -1,12 +1,12 @@
-﻿// Console.WriteLine();
-// Console.WriteLine("Задача 41");
-// Console.WriteLine();
+﻿Console.WriteLine();
+Console.WriteLine("Задача 41");
+Console.WriteLine();
 // Пользователь вводит с клавиатуры M чисел. 
 // Посчитайте, сколько чисел больше 0 ввёл пользователь.
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 4
 
-/*void Zadacha41()
+void Zadacha41()
 {
     Console.Write("Введите числа(через пробел): ");
     int[] numbers = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
@@ -24,7 +24,7 @@
 }
 
 
-Zadacha41();*/
+Zadacha41();
 
 Console.WriteLine();
 Console.WriteLine("Задача 43");
