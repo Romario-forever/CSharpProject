@@ -1,4 +1,4 @@
-﻿/*Console.WriteLine();
+﻿Console.WriteLine();
 Console.WriteLine("Задача 47\n");
 // Задайте двумерный массив размером m×n, 
 //заполненный случайными вещественными числами.
@@ -82,16 +82,12 @@ void Zadacha50()
     FillItemsArray(items);
     PrintPositionItems(items);
 }
-Zadacha50();*/
+Zadacha50();
 
 Console.WriteLine();
 Console.WriteLine("Задача 52\n");
 //Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-//Например, задан массив:
-// 1 4 7 2
-// 5 9 2 3
-// 8 4 2 4
-// Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
+
 void Zadacha52()
 {
     Random random = new Random();
